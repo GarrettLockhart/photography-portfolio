@@ -130,7 +130,7 @@ img {
   letter-spacing: 3px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .landing-image {
     background-image: url(./img/bg-img.jpg);
     background-size: cover;
