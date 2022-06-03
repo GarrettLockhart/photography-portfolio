@@ -68,10 +68,27 @@ body {
 /* Main-content */
 
 .content-header {
-  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 150px;
   text-align: center;
-  border-bottom: 2px solid black;
-  margin-bottom: 20px;
+  border-top: 3px solid black;
+  margin-bottom: 40px;
+  line-height: 2.5em;
+  color: black;
+}
+
+.content-header h2 {
+  font-size: 2.2em;
+  font-weight: 600;
+}
+
+.content-header p {
+  font-size: 22px;
+  font-weight: thin;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* Gallery */
