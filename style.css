@@ -65,6 +65,10 @@ body {
   border-bottom: 2px solid black;
 }
 
+.active {
+  border-bottom: 2px solid black;
+}
+
 /* Main-content */
 
 .content-header {
