@@ -13,7 +13,6 @@ body {
 .container {
   width: 85%;
   margin: 0 auto;
-  transform: translateY(-30px);
 }
 
 /* Landing Page */
@@ -28,6 +27,7 @@ body {
 .main-header {
   display: flex;
   justify-content: space-between;
+  padding-top: 25px;
 }
 
 #logo {
@@ -63,13 +63,6 @@ body {
 
 .main-navbar-container ul a:hover {
   border-bottom: 2px solid black;
-}
-
-.arrow-down {
-  transform: translateY(1150%);
-  text-align: center;
-  color: white;
-  font-size: 3em;
 }
 
 /* Main-content */
@@ -149,6 +142,11 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .main-navbar-container ul li {
+    list-style-type: none;
+    margin: 0 10px;
   }
 
   .content-header {
