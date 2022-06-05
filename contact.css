@@ -16,6 +16,10 @@ body {
   margin: 0 auto;
 }
 
+a {
+  color: black;
+}
+
 /* Header and nav */
 
 .main-header {
@@ -50,7 +54,6 @@ body {
 
 .main-navbar-container ul a {
   text-decoration: none;
-  color: black;
   font-size: 1.3em;
   text-transform: uppercase;
 }
@@ -61,6 +64,7 @@ body {
 
 .active {
   border-bottom: 2px solid black;
+  color: red;
 }
 
 /* Main content and form */
