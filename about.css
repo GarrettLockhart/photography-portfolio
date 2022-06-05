@@ -30,6 +30,7 @@ a {
 #logo {
   font-size: 1.2rem;
   border-bottom: 2px solid black;
+  letter-spacing: 1px;
 }
 
 #logo a {
@@ -97,6 +98,12 @@ a {
   text-align: center;
 }
 
+.about-me-text h2 {
+  margin-bottom: 20px;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
 .about-me-text ul {
   display: flex;
   justify-content: space-between;
@@ -134,4 +141,31 @@ i:hover {
   color: white;
   font-weight: bold;
   letter-spacing: 3px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-navbar-container ul li {
+    list-style-type: none;
+    margin: 10px 10px;
+  }
+
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+  }
+
+  .about-me-text {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0;
+  }
 }
