@@ -26,6 +26,7 @@ a {
   background-image: url(./img/bg-img.jpg);
   background-size: cover;
   background-position-y: 35%;
+  background-attachment: fixed;
   height: 100vh;
 }
 
