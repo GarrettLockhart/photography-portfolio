@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
 }
 
-/* Landing Page */
+/* Landing img */
 
 .landing-image {
   background-image: url(./img/bg-img.jpg);
@@ -23,6 +23,8 @@ body {
   background-position-y: 35%;
   height: 100vh;
 }
+
+/* Main header and nav */
 
 .main-header {
   display: flex;
