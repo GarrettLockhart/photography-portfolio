@@ -28,6 +28,7 @@ a {
   background-position-y: 35%;
   background-attachment: fixed;
   height: 100vh;
+  position: relative;
 }
 
 /* Main header and nav */
@@ -75,6 +76,18 @@ a {
 
 .active {
   border-bottom: 2px solid black;
+  color: red;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow i {
+  font-size: 5rem;
   color: red;
 }
 
