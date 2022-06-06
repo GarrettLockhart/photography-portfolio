@@ -26,7 +26,6 @@ a {
   background-image: url(./img/bg-img.jpg);
   background-size: cover;
   background-position-y: 35%;
-  background-attachment: fixed;
   height: 100vh;
   position: relative;
 }
@@ -81,7 +80,7 @@ a {
 
 .arrow {
   position: absolute;
-  bottom: 3%;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -162,6 +161,7 @@ img {
     background-size: cover;
     background-position-y: 35%;
     background-position-x: 50%;
+    height: 95vh;
   }
 
   .main-header {
