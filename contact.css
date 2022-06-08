@@ -139,6 +139,7 @@ a {
 
 .form-btn:hover {
   background-color: red;
+  cursor: pointer;
 }
 
 /* Footer */
