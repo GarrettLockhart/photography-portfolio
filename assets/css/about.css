@@ -97,6 +97,7 @@ a {
   margin: 0 10px;
   padding-top: 50px;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .about-me-text h2 {
@@ -128,6 +129,8 @@ a {
 .about-me-text ul li a:hover,
 i:hover {
   border-bottom: 2px solid black;
+  color: red;
+  transition: 200ms;
 }
 
 /* Footer */

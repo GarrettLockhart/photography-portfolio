@@ -87,7 +87,12 @@ a {
 
 .arrow i {
   font-size: 5rem;
-  color: red;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 500ms;
+}
+
+.arrow i:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 /* Main-content */
