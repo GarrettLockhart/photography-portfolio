@@ -162,7 +162,7 @@ img {
 
 @media only screen and (max-width: 768px) {
   .landing-image {
-    background-image: url(./img/bg-img.jpg);
+    background-image: url(/img/bg-image.jpg);
     background-size: cover;
     background-position-y: 35%;
     background-position-x: 50%;
